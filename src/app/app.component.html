@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="container-fluid">
+  <div class="row" id="a">
+    <div class="col-sm-12">
+      <nav>
+        <i class="fa-solid fa-phone"></i>
+       
+        <p>+91 9791192178</p>
+      </nav>
+      <nav>
+        <i class="fa-brands fa-whatsapp"></i>
+        <p>+91 9176680786</p>
+      </nav>
+
+      <div class="nav-right">
+        <nav>
+          <i class="fa-solid fa-heart"></i>
+          
+          <a routerLink="wishlist" type="button" class="btn">wishlist</a>
+        </nav>
+        <nav>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p><a type="button" class="btn">Cart</a></p>
+        </nav>
+        <nav>
+          
+          <i class="fa-solid fa-user"></i>
+          <a routerLink="loginpage" type="button" class="btn">login</a>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row" >
+    <div class="col-sm-8" id="b">
+      
+        <img src="/assets/logo.jpg" alt="">
+      </div>
+      <div class="col-sm-4" id="c">
+        <img src="/assets/images.jpg" alt="">
+        
+      </div>
+    
+  </div>
+  <hr>
+  <div class="row" id="d">
+    <app-navbar></app-navbar>
+
+  </div>
+  <hr>
+
+  <div class="row" id="e">
+    <div class="col-sm-12">
+      <router-outlet></router-outlet>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+  
+    

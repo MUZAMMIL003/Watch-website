@@ -1,0 +1,42 @@
+<div id="background">
+    <div id="body" *ngIf="alreadyanuser">
+        <div id="form_space">
+            <form action="">
+                <div>
+                    <label for="email id">email id:</label>
+                    <input type="text" id="email id" placeholder="Enter username" [(ngModel)]="emaill" name="email">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter password"[(ngModel)]="passwordl" name="password">
+                </div>
+                <div>
+                    <button type="submit" class="btn-primary" (click)="signIn()">LogIn</button> 
+                    
+                </div>
+            </form>
+            <p><span id="inform">If you are not a user</span> <br><button (click)="alreadyanuser=false" class="btn btn-primary">Create a new account</button></p>
+            
+        </div>
+        
+    </div>
+    <div id="body" *ngIf="!alreadyanuser">
+        <div id="form_space">
+            <form action="">
+                <div>
+                    <label for="email id">email id:</label>
+                    <input type="text" id="email id" placeholder="Enter username" [(ngModel)]="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter password"[(ngModel)]="password" name="password">
+                </div>
+                <div>
+                    <button type="submit" class="btn-primary" (click)="register()">signup</button> 
+                    
+                </div>
+            </form>
+            <p><span id="inform">If you are already an user</span> <br><button (click)="alreadyanuser=true" class="btn btn-primary">Go to login page</button></p>
+        </div>
+    </div>
+</div>

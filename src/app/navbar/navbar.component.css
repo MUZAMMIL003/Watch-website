@@ -1,0 +1,15 @@
+ul{
+    text-align: center;
+}
+ul li{
+    text-decoration: none;
+    font-weight: bold;
+    padding-inline: 60px;
+} 
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    color:rgb(240, 9, 9);
+    font-weight: bolder;
+}

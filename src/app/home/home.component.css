@@ -1,0 +1,175 @@
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 400%;
+    margin: 0%;
+    left: 0%;
+    animation: 10s slider infinite;
+
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+img{
+    height: 50%;width: 100vw;
+}
+ #b img{
+    
+    width: 150%;
+}
+#c{
+    height: 50%;
+}
+#z{
+    width: 70%;
+    padding-left: 12cm;
+}
+#x{
+    width: 59%;
+    height: 400px;
+    margin-left: 2cm;
+
+}
+
+
+#y{
+    width: 59%;
+    height: 400px;
+    margin-left: 2cm;
+
+}
+#m{
+    width: 59%;
+    height: 400px;
+    margin-left: 2cm;
+}
+#n{
+    width: 59%;
+    height: 400px;
+    margin-left: 2cm;
+}
+#o{
+    width: 55%;
+    height: 400px;
+    margin-left: 2cm;
+}
+#p{
+    width: 59%;
+    height: 400px;
+    margin-left: 2cm;
+}
+#q{
+    width: 100%;
+    height: 9cm;
+}
+#r{
+    width: 60%;
+    height: 12cm;
+    margin-left: 2cm;
+}
+#s{
+    width: 55%;
+    height: 12cm;
+    margin-left: 2cm;
+}
+#t{
+    width: 70%;
+    height: 12cm;
+    margin-left: 1cm;
+}
+#u{
+    width: 99%;
+    height: 9cm;
+}
+#v{
+    width: 60%;
+    height: 11cm;
+    margin-left: 2cm;
+}
+#w{
+    width: 55%;
+    height: 11cm;
+    margin-left: 2cm;
+}
+#a1{
+    width: 70%;
+    height: 11cm;
+    margin-left: 1cm;
+}
+#a2{
+    width: 99%;
+    height: 9cm;
+}
+#a3{
+    width: 60%;
+    height: 11cm;
+    margin-left: 2cm;
+}
+#a4{
+    width: 55%;
+    height: 11cm;
+    margin-left: 2cm;
+}
+#a5{
+    width: 70%;
+    height: 11cm;
+    margin-left: 1cm;
+}
+
+
+#b1.row{background-color: black;}
+
+#b2{text-align: center;
+color: grey;
+font-weight: bolder;
+font-size: large;
+border-right: 2px;
+}
+
+#b3{text-align: center;
+    color: grey;
+    font-weight: bolder;
+    font-size: large;}
+
+#b4{text-align: center;
+    color: grey;
+    font-weight: bolder;
+    font-size: large;}
+
+    button{
+        margin-left: 150px;
+    }
